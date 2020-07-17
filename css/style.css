@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Satisfy&display=swap');
+
+
+
+.main{
+    background: rgb(34,40,49);
+    background: linear-gradient(128deg, rgba(34,40,49,1) 0%, rgba(34,40,49,1) 50%, 
+    rgba(57,62,70,1) 50%, rgba(57,62,70,1) 64%, rgba(181,84,0,1) 64%, rgba(179,90,4,1) 78%, 
+    rgba(151,151,52,1) 78%, rgba(151,151,52,1) 100%);
+
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .navbar .navbar-brand{
+    font-family: 'Satisfy', cursive;
+    color: #B55400;
+    font-size: 38px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.main .navbar .nav-item{
+    font-family: 'Kalam', cursive;
+    color: #B55400;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.navbar-nav img{
+    margin-right: 20px;
+}
+
+.content .nav-circle{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content .nav-circle a{
+    height: 9px;
+    width: 9px;
+    background-color: #B55400;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: .1s;
+
+}
+.content .nav-circle a:nth-child(1){
+    background-color: #ffe1c4;
+}
+
+.content .nav-circle a:hover{
+    transform: scale(1.7);
+}
+
+.content .hero{
+    width: 714px;
+    height: 297px;
+    font-family: 'Kalam';
+    position: absolute;
+    left: 140px;
+    top: 190px;
+}
+
+.content .hero h1{
+    font-size: 88px;
+    color: #B55400;
+    margin-top: -20px;
+}
+
+.content .hero p.orange{
+    font-size: 38px;
+    color: #B55400;
+}
+
+.content .hero p.green{
+    font-size: 28px;
+    color: #979734;
+    margin-top: -20px;
+}
+
+.content .hero a.tombol{
+    border: 2px solid #B55400;
+    width: 130px;
+    padding: 7px;
+    border-radius: 200px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #B55400;
+    transition: .3s;
+}
+
+.content .hero a.tombol:hover{
+    text-decoration: none;
+    border: 2px solid #f5ceab;
+    color: #f5ceab;
+}
+
+.content img.noodle{
+    position: absolute;
+    width: 600px;
+    right: 160px;
+    top: 14%;
+    transform: rotate(-80.45deg);
+    filter: drop-shadow(-20px 15px 20px rgba(0, 0, 0, 0.36));
+    transition: .3s;
+}
+.content img.noodle:hover{
+    transform: scale(1.3);
+    filter: drop-shadow(30px 25px 10px rgba(0, 0, 0, 0.36));
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.social .ig{
+    width: 25px;
+    margin-bottom: 15px;
+}
+.social .tw{
+    width: 25px;
+}
+
+.content .review{
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    bottom: 40px;
+    display: flex;
+    color: white;
+    width: 200px;
+    font-family: 'Kalam';
+    justify-content: space-around;
+}
+
+.content .review a{
+    color: white;
+    text-decoration: underline;
+}
+
+.content .promo{
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+    width: 249px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotak{
+    position: absolute;
+    width: 130px;
+    height: 70px;
+    border: 4px solid white;
+    opacity: .4;
+    z-index: 1;
+}
+
+.content .promo img{
+    width: 150px;
+    z-index: 2;
+    filter: drop-shadow(15px 8px 20px rgba(0, 0, 0, 0.36));
+    transition: .3s;
+}
+
+.content .promo img:hover{
+    transform: scale(1.1);
+}
+
+
+
