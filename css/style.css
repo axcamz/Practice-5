@@ -156,10 +156,19 @@
 
 .content .promo{
     position: absolute;
-    bottom: 0;
+    bottom: 50px;
     left: 120px;
-    width: 249px;
-    text-align: center;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    font-family: 'Kalam';
+    color: white;
+    height: 100px;
+}
+
+.image{
     display: flex;
     justify-content: center;
     align-items: center;
